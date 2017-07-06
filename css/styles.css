@@ -66,3 +66,29 @@ ul {
   box-shadow: 0 0 22px 1px rgba(3, 10, 186, 0.5);
 }
 
+
+footer {
+  font-size: 40px;
+  /*   background: linear-gradient(45deg, #97F7FB, #8D8AFC); */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .copyright {
+  font-size: 30px;
+  margin-left: auto;
+  align-self: baseline;
+}
+
+footer a {
+  margin: 1px;
+}
+
+/* Propiedades de los links del footer en sus dif estados */
+
+footer a:visited, a:hover, a:active {
+  color: black;
+}
+
