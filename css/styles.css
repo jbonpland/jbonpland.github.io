@@ -28,6 +28,7 @@ a {
   color: DarkBlue;
 }
 
+/* Using flexbox to align items*/
 header {
   display: flex;
   flex-direction: column;
