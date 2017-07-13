@@ -1,0 +1,118 @@
+html {
+  background: linear-gradient(45deg, #97F7FB, #8D8AFC) no-repeat center center fixed;
+  background-size: cover; }
+
+body {
+  font-family: sans-serif;
+  margin: 2em; }
+
+.logo {
+  width: 450px; }
+
+.logo:hover {
+  opacity: 0.9; }
+
+h1 {
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: DarkBlue; }
+
+/* Using flexbox to align items*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.navbar {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.navbar li {
+  display: inline; }
+
+ul {
+  padding: 1px; }
+
+/* Animate Navbar starts*/
+li {
+  position: relative;
+  display: inline-block;
+  transition: all 0.25s linear;
+  letter-spacing: 1px;
+  margin-right: 5px;
+  margin-left: 5px; }
+
+/* li:hover {
+    letter-spacing: 1.1px;
+} */
+li::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  background: DarkBlue;
+  transition: all 1s cubic-bezier(0.03, -0.71, 0.68, 1.86);
+  top: 0;
+  right: 0; }
+
+li:hover::before {
+  width: 100%; }
+
+li::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  background: DarkBlue;
+  transition: all 1s cubic-bezier(0.03, -0.71, 0.68, 1.86);
+  bottom: 0;
+  left: 0; }
+
+li:hover::after {
+  width: 100%; }
+
+/* Animate Navbar end*/
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.thumb {
+  border: 5px solid #ddd;
+  /* Gray border */
+  border-radius: 28px;
+  /* Rounded border */
+  padding: 3px;
+  /* Some padding */
+  width: 150px;
+  /* width */ }
+
+/* hover effect (blue shadow) */
+.thumb:hover {
+  box-shadow: 0 0 22px 1px rgba(3, 10, 186, 0.5); }
+
+footer {
+  font-size: 40px;
+  /*   background: linear-gradient(45deg, #97F7FB, #8D8AFC); */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+footer .copyright {
+  font-size: 30px;
+  margin-left: auto;
+  align-self: baseline; }
+
+footer a {
+  margin: 1px; }
+
+/* Propiedades de los links del footer en sus dif estados */
+footer a:visited, a:hover, a:active {
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */
