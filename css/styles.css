@@ -38,6 +38,9 @@ header {
     margin-right: 5px;
     margin-left: 5px;
     /* ---------------------Animate Navbar end--------------------*/ }
+    .navbar li a {
+      font-size: 20px;
+      font-family: "Roboto", sans-serif; }
     .navbar li::before {
       position: absolute;
       content: "";
