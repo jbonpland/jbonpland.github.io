@@ -1,83 +1,197 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>My Travel Photos</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:900"'>
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-<header>
-  <img src="https://goo.gl/t1EunS" class="logo" alt="logo">
-  <!--  LOGO  -->
-  <h1>My Travel Photos</h1>
+  <head>
+  <!-- /* -----------------------------------bootstrap required -----------------------------------------*/ -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-</header>
-<hr>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- /* -----------------------------------Google fonts and font awesome -----------------------------------------*/ -->
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:900"'> <!--  /* google fonts*/ -->
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> <!-- /* font awesome */ -->
+    
 
-<nav class="navbar">
-  <ul>
-    <li class="uno"><a href="#sud">Sudamerica</a></li>
-    <li class="dos"><a href="#eu">Europa</a></li>
-    <li class="tres"><a href="#oc">Oceania</a></li>
-    <li class="cuatro"><a href="#">More</a></li>
-  </ul>
-</nav>
+    <link rel="stylesheet" href="css/styles.css"> <!-- /*my styles*/ -->
 
-<section>
-  <h2>Viajes</h2>
-  <article>
-    <h3>Parrafo</h3>
-    <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus
-      te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer
-      recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
-  </article>
-</section>
-<div class="images">
-  <section id="sud">
-    <h3>Sudamerica</h3>
-    <div>
-      <a href="https://goo.gl/KWpW1x" target="_blank"><img src="https://goo.gl/KWpW1x" class="thumb" alt="perro amarillo"></a>
-      <a href="https://goo.gl/pVJJth" target="_blank"><img src="https://goo.gl/pVJJth" class="thumb" alt="dibujo de un faro"></a>
-      <a href="https://goo.gl/gf2MoS" target="_blank"><img src="https://goo.gl/gf2MoS" class="thumb" alt="la famiglia diablense"></a>
+    <title>My Travel Photos</title>
+  </head>
+  <body>
+   <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">JBM</a>
     </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="uno active"><a href="#sud">Sudamerica</a></li>
+        <li class="dos"><a href="#eu">Europa</a></li>
+        <li class="tres"><a href="#oc">Oceania</a></li>
+        <li class="cuatro"><a href="#">More</a></li>
+        
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-  </section>
 
-  <section id="eu">
-    <h3>Europa</h3>
-    <div>
-      <a href="https://goo.gl/7HDcB7" target="_blank"><img src="https://goo.gl/7HDcB7" class="thumb" alt="costa en dinamarca"></a>
-      <a href="https://goo.gl/VEztFe" target="_blank"><img src="https://goo.gl/VEztFe" class="thumb" alt="arboles"></a>
-      <a href="https://goo.gl/82E4wZ" target="_blank"><img src="https://goo.gl/82E4wZ" class="thumb" alt="colinas verdes"></a>
+
+        <header class="row">
+          <div class="col-md-12">
+            <img src="https://goo.gl/t1EunS" class="logo center-block" alt="logo"> <!--  LOGO  -->
+          </div>
+            
+          <div class="col-md-12">
+            <h1 class="text-center">My Travel Photos</h1>
+          </div>
+
+        </header>
+    
+      <hr>
+    
+    
+    <section id="intro">
+     <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Viajes</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <article>
+            <h3>Parrafo</h3>
+            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus
+              te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer
+            recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
+          </article>  
+        </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row" id="sud">
+        <div class="col-md-12">
+          <h3>Sudamerica</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a data-toggle="modal" data-target="#photo1"><img src="https://goo.gl/KWpW1x" class="img-responsive img-thumbnail" alt="perro amarillo"></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://goo.gl/pVJJth" target="_blank"><img src="https://goo.gl/pVJJth" class="img-responsive img-thumbnail" alt="dibujo de un faro"></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://goo.gl/gf2MoS" target="_blank"><img src="https://goo.gl/gf2MoS" class=" img-responsive img-thumbnail" alt="la famiglia diablense"></a>
+        </div>
+      </div>
+      <div class="row" id="eu">
+        <div class="col-md-12">
+          <h3>Europa</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://goo.gl/7HDcB7" target="_blank"><img src="https://goo.gl/7HDcB7" class="img-responsive img-thumbnail" alt="costa en dinamarca"></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://goo.gl/VEztFe" target="_blank"><img src="https://goo.gl/VEztFe" class="img-responsive img-thumbnail" alt="arboles"></a>
+        </div>  
+        <div class="col-md-4">
+          <a href="https://goo.gl/82E4wZ" target="_blank"><img src="https://goo.gl/82E4wZ" class="img-responsive img-thumbnail" alt="colinas verdes"></a>
+        </div>
+        
+      </div>
+      <div class="row" id="oc">
+        <div class="col-md-12">
+          <h3>Oceania</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+            <a href="https://goo.gl/f43FUc" target="_blank"><img src="https://goo.gl/f43FUc" class="img-responsive img-thumbnail" alt="atadecer en queenstown"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="https://goo.gl/ryKUAP" target="_blank"><img src="https://goo.gl/ryKUAP" class="img-responsive img-thumbnail" alt="mount cook"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="https://goo.gl/35GBFn" target="_blank"><img src="https://goo.gl/35GBFn" class="img-responsive img-thumbnail" alt="recycle with care"></a>
+        </div>
+      </div>
+      </div>
     </div>
 
-
-  </section>
-  <section id="oc">
-    <h3>Oceania</h3>
-    <div>
-      <a href="https://goo.gl/f43FUc" target="_blank"><img src="https://goo.gl/f43FUc" class="thumb" alt="atadecer en queenstown"></a>
-      <a href="https://goo.gl/ryKUAP" target="_blank"><img src="https://goo.gl/ryKUAP" class="thumb" alt="mount cook"></a>
-      <a href="https://goo.gl/35GBFn" target="_blank"><img src="https://goo.gl/35GBFn" class="thumb" alt="recycle with care"></a>
-    </div>
-
-
-  </section>
-</div>
-<hr>
+    <hr>
 
 <footer>
   <!-- Lo que no logre hacer es poner el logo de COPYRIGHT en el lado derecho y los social icons en el izquierdo -->
-  <a href="https://www.linkedin.com/in/jbonpland/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-  <a href="https://github.com/jbonpland" target="_blank"><i class="fa fa-git-square" aria-hidden="true"></i></a>
-  <a href="https://www.facebook.com/julianoelbanano" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
- <i class="copyright fa fa-copyright" aria-hidden="true"></i>
+  <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-6">
+      <ul class="list-inline">
+        <li><a href="https://www.linkedin.com/in/jbonpland/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/jbonpland" target="_blank"><i class="fa fa-git-square" aria-hidden="true"></i></a></li>
+        <li>  <a href="https://www.facebook.com/julianoelbanano" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <i class="copyright fa fa-copyright pull-right" aria-hidden="true"></i>
+    </div>
+    </div>
+  </div>
 </footer>
+  
+
+   <!-- modals -->
 
 
-</body>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>

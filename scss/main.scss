@@ -1,10 +1,7 @@
-$font-roboto: 'Roboto', sans-serif;
+$font-roboto: "Roboto", sans-serif;
 
 html {
-  background: linear-gradient(45deg, #97F7FB, #8D8AFC)no-repeat
-    center
-    center
-    fixed;
+  background: linear-gradient(45deg, #97F7FB, #8D8AFC) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -15,12 +12,11 @@ body {
 
 .logo {
   width: 450px;
+
   &:hover {
-  opacity: 0.9;
+    opacity: 0.9;
+  }
 }
-}
-
-
 
 h1 {
   font-family: $font-roboto;
@@ -35,7 +31,7 @@ a {
 header {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .navbar {
@@ -43,13 +39,21 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  li { /* ------------Animate Navbar starts--------------------*/
+
+  li {
+    /* ------------Animate Navbar starts--------------------*/
+    a {
+      font-size: 20px;
+      font-family: $font-roboto;
+    }
+
     position: relative;
     display: inline-block;
     transition: all 0.25s linear;
     letter-spacing: 1px;
     margin-right: 5px;
     margin-left: 5px;
+
     &::before {
       position: absolute;
       content: "";
@@ -60,9 +64,11 @@ header {
       top: 0;
       right: 0;
     }
+
     &:hover::before {
       width: 100%;
     }
+
     &::after {
       position: absolute;
       content: "";
@@ -73,18 +79,18 @@ header {
       bottom: 0;
       left: 0;
     }
+
     &:hover::after {
       width: 100%;
     }
-/* ---------------------Animate Navbar end--------------------*/
+
+    /* ---------------------Animate Navbar end--------------------*/
   }
 }
-
 
 ul {
   padding: 1px;
 }
-
 
 .images {
   display: flex;
@@ -93,10 +99,18 @@ ul {
 }
 
 .thumb {
-  border: 5px solid #ddd; /* Gray border */
-  border-radius: 28px; /* Rounded border */
-  padding: 3px; /* Some padding */
-  width: 150px; /* width */
+  border: 5px solid #ddd;
+
+  /* Gray border */
+  border-radius: 28px;
+
+  /* Rounded border */
+  padding: 3px;
+
+  /* Some padding */
+  width: 150px;
+
+  /* width */
 }
 
 /* hover effect (blue shadow) */
@@ -104,18 +118,20 @@ ul {
   box-shadow: 0 0 22px 1px rgba(3, 10, 186, 0.5);
 }
 
-
 footer {
   font-size: 40px;
+
   /*   background: linear-gradient(45deg, #97F7FB, #8D8AFC); */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-   a {
-  margin: 1px;
+
+  a {
+    margin: 1px;
   }
-      /* Propiedades de los links del footer en sus dif estados */
+
+  /* Propiedades de los links del footer en sus dif estados */
   a:visited,
   a:hover,
   a:active {
@@ -126,16 +142,5 @@ footer {
 .copyright {
   font-size: 30px;
   margin-left: auto;
-  align-self: baseline; 
+  align-self: baseline;
 }
-
-
-
-
-
-
-
-
-
-
-
