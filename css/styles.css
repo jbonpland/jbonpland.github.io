@@ -1,10 +1,10 @@
-html {
+.container-fluid {
   background: linear-gradient(45deg, #97F7FB, #8D8AFC) no-repeat center center fixed;
   background-size: cover; }
 
 body {
   font-family: sans-serif;
-  margin: 2em; }
+  /*margin: 2em;*/ }
 
 .logo {
   width: 450px; }
@@ -20,15 +20,15 @@ a {
 
 /* Using flexbox to align items*/
 header {
-  display: flex;
+ /* display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;*/ }
 
 .navbar {
-  height: 40px;
-  display: flex;
+  /*height: 40px;*/
+  /*display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;*/ }
   .navbar li {
     /* ------------Animate Navbar starts--------------------*/
     position: relative;
@@ -65,12 +65,12 @@ header {
       width: 100%; }
 
 ul {
-  padding: 1px; }
+  /*padding: 1px;*/ }
 
 .images {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center; */}
 
 .thumb {
   border: 5px solid #ddd;
@@ -89,10 +89,10 @@ ul {
 footer {
   font-size: 40px;
   /*   background: linear-gradient(45deg, #97F7FB, #8D8AFC); */
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center;*/
   /* Propiedades de los links del footer en sus dif estados */ }
   footer a {
     margin: 1px; }
@@ -103,7 +103,7 @@ footer {
 
 .copyright {
   font-size: 30px;
-  margin-left: auto;
-  align-self: baseline; }
+  /*margin-left: auto;*/
+ /* align-self: baseline;*/ }
 
 /*# sourceMappingURL=styles.css.map */

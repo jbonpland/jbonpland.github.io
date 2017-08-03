@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <!-- /* -----------------------------------bootstrap required -----------------------------------------*/ -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="css/bootstrap.css" rel="stylesheet"> /* bootstrap*/
+  <!-- /* -----------------------------------Google fonts and font awesome -----------------------------------------*/ -->
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:900"'> <!--  /* google fonts*/ -->
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> <!-- /* font awesome */ -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- /*my styles*/ -->
+
     <title>My Travel Photos</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:900"'>
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container-fluid">
-    <header>
-      <img src="https://goo.gl/t1EunS" class="logo" alt="logo">
-      <!--  LOGO  -->
-      <h1>My Travel Photos</h1>
-    </header>
-    <hr>
     <div class="container">
+    <header class="row">
+      <div class="col-md-12">
+        <img src="https://goo.gl/t1EunS" class="logo center-block" alt="logo"> <!--  LOGO  -->
+      </div>
+        
+      <div class="col-md-12">
+        <h1 class="text-center">My Travel Photos</h1>
+      </div>
+
+    </header>
+    
+    <hr>
+    
     <nav class="navbar">
       <ul>
         <li class="uno"><a href="#sud">Sudamerica</a></li>
@@ -37,12 +48,16 @@
       </article>
     </section>
     <div class="images">
-      <section id="sud">
+      <section class="row" id="sud">
         <h3>Sudamerica</h3>
-        <div>
-          <a href="https://goo.gl/KWpW1x" target="_blank"><img src="https://goo.gl/KWpW1x" class="thumb" alt="perro amarillo"></a>
-          <a href="https://goo.gl/pVJJth" target="_blank"><img src="https://goo.gl/pVJJth" class="thumb" alt="dibujo de un faro"></a>
-          <a href="https://goo.gl/gf2MoS" target="_blank"><img src="https://goo.gl/gf2MoS" class="thumb" alt="la famiglia diablense"></a>
+        <div class="col-md-4">
+          <a class="center-block" href="https://goo.gl/KWpW1x" target="_blank"><img src="https://goo.gl/KWpW1x" class="thumb" alt="perro amarillo"></a>
+        </div>
+        <div class="col-md-4">
+          <a class="center-block" href="https://goo.gl/pVJJth" target="_blank"><img src="https://goo.gl/pVJJth" class="thumb" alt="dibujo de un faro"></a>
+        </div>
+        <div class="col-md-4">
+          <a class="center-block" href="https://goo.gl/gf2MoS" target="_blank"><img src="https://goo.gl/gf2MoS" class="thumb" alt="la famiglia diablense"></a>
         </div>
       </section>
       <section id="eu">
@@ -64,7 +79,6 @@
     </div>
 
     <hr>
-    </div>
 
     <footer>
       <!-- Lo que no logre hacer es poner el logo de COPYRIGHT en el lado derecho y los social icons en el izquierdo -->
@@ -73,6 +87,7 @@
       <a href="https://www.facebook.com/julianoelbanano" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
       <i class="copyright fa fa-copyright" aria-hidden="true"></i>
     </footer>
+    </div>
 
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
